@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CBSE Class 12 Maths 2026-27 — Syllabus, Formulas &amp; Worked Examples</title>
+<meta name="description" content="CBSE Class 12 Mathematics (Standard, Code 041), session 2026-27: official syllabus, unit weightage, question-paper design, formula sheets and step-by-step worked examples with board-exam mark allocation.">
+<style>
+  :root{
+    --navy:#0b3d66;
+    --navy-dark:#082a48;
+    --gold:#b8860b;
+    --bg:#f7f9fb;
+    --card:#ffffff;
+    --line:#e0e6ec;
+    --text:#1c1c1c;
+    --muted:#5b6672;
+  }
+  * { box-sizing: border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height:1.55;
+  }
+  a { color: inherit; }
+  .wrap{ max-width: 980px; margin: 0 auto; padding: 0 20px; }
+
+  header.hero{
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
+    color: white;
+    padding: 64px 0 56px;
+  }
+  header.hero .kicker{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: #e8c25a;
+    margin-bottom: 14px;
+  }
+  header.hero h1{
+    font-size: clamp(28px, 5vw, 42px);
+    margin: 0 0 10px;
+    line-height:1.15;
+  }
+  header.hero p.sub{
+    font-size: 17px;
+    color: #cfe0ee;
+    max-width: 640px;
+    margin: 0 0 30px;
+  }
+  .cta-row{ display:flex; gap:14px; flex-wrap:wrap; }
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding: 13px 24px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration:none;
+    border: 2px solid transparent;
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+  .btn:hover{ transform: translateY(-1px); }
+  .btn-primary{ background: #e8c25a; color: #1c1c1c; box-shadow: 0 4px 14px rgba(0,0,0,.25); }
+  .btn-ghost{ background: transparent; color: white; border-color: rgba(255,255,255,.5); }
+
+  .stats{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px,1fr));
+    gap: 14px;
+    margin-top: 40px;
+  }
+  .stat{
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .stat .num{ font-size: 24px; font-weight: 800; color: #fff; }
+  .stat .lbl{ font-size: 12px; color: #cfe0ee; margin-top: 2px; }
+
+  main{ padding: 48px 0 40px; }
+  h2.section-title{
+    font-size: 22px;
+    color: var(--navy);
+    margin: 0 0 18px;
+  }
+
+  .grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    gap: 16px;
+    margin-bottom: 46px;
+  }
+  .card{
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px 22px;
+  }
+  .card h3{
+    margin: 0 0 6px;
+    font-size: 16px;
+    color: var(--navy);
+  }
+  .card .marks{
+    display:inline-block;
+    background: #eef3f8;
+    color: var(--navy);
+    font-weight: 700;
+    font-size: 12.5px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+  }
+  .card p{ margin: 0; color: var(--muted); font-size: 14px; }
+
+  table.weightage{
+    width:100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 46px;
+  }
+  table.weightage th, table.weightage td{
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 14.5px;
+  }
+  table.weightage th{
+    background: var(--navy);
+    color: white;
+    font-weight: 600;
+  }
+  table.weightage tr:nth-child(even) td{ background: #f2f5f8; }
+  table.weightage tr.total td{ font-weight: 700; background:#eef3f8; }
+
+  .viewer-block{ margin-bottom: 46px; }
+  .viewer-frame{
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    height: 70vh;
+    min-height: 420px;
+    background: #fff;
+  }
+  .viewer-frame embed{ width:100%; height:100%; }
+  .viewer-fallback{
+    padding: 30px;
+    text-align:center;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  .note{
+    background: #fff7e6;
+    border: 1px dashed #d8a63a;
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-size: 14px;
+    color: #5b4a1f;
+    margin-bottom: 46px;
+  }
+  .note strong{ color: #7a5a00; }
+
+  ul.sources{ font-size: 13.5px; color: var(--muted); padding-left: 20px; }
+  ul.sources li{ margin-bottom: 6px; }
+  ul.sources a{ color: var(--navy); text-decoration: underline; }
+
+  footer{
+    border-top: 1px solid var(--line);
+    padding: 26px 0 40px;
+    text-align:center;
+    color: var(--muted);
+    font-size: 12.5px;
+  }
+
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0f1418;
+      --card:#161c22;
+      --line:#262e36;
+      --text:#e8edf2;
+      --muted:#9aa7b3;
+    }
+    table.weightage tr:nth-child(even) td{ background:#1b2229; }
+    table.weightage tr.total td{ background:#1e2934; }
+    .card .marks{ background:#1e2934; }
+    .note{ background:#2a2210; border-color:#7a5a00; color:#e8c25a; }
+    .note strong{ color:#f0d385; }
+    ul.sources a{ color:#7fb2e0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">CBSE &middot; Session 2026&ndash;27</div>
+    <h1>Class 12 Mathematics<br>Standard (Code 041)</h1>
+    <p class="sub">Official syllabus &amp; weightage, the question-paper blueprint, formula sheets for
+      all 13 chapters, and step-by-step worked examples showing exactly how CBSE splits marks
+      across each step of a board-exam solution.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="./syllabus.pdf" target="_blank" rel="noopener">&#8595;&nbsp; Download the PDF</a>
+      <a class="btn btn-ghost" href="#preview">View online</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="num">80</div><div class="lbl">Theory Marks</div></div>
+      <div class="stat"><div class="num">20</div><div class="lbl">Internal Assessment</div></div>
+      <div class="stat"><div class="num">6</div><div class="lbl">Units</div></div>
+      <div class="stat"><div class="num">13</div><div class="lbl">Chapters</div></div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <h2 class="section-title">Unit-wise weightage</h2>
+    <table class="weightage">
+      <tr><th>Unit</th><th>Title</th><th>Marks</th></tr>
+      <tr><td>I</td><td>Relations and Functions</td><td>8</td></tr>
+      <tr><td>II</td><td>Algebra</td><td>10</td></tr>
+      <tr><td>III</td><td>Calculus</td><td>35</td></tr>
+      <tr><td>IV</td><td>Vectors and Three-Dimensional Geometry</td><td>14</td></tr>
+      <tr><td>V</td><td>Linear Programming</td><td>5</td></tr>
+      <tr><td>VI</td><td>Probability</td><td>8</td></tr>
+      <tr class="total"><td colspan="2">Theory Total</td><td>80</td></tr>
+      <tr class="total"><td colspan="2">Internal Assessment</td><td>20</td></tr>
+    </table>
+
+    <h2 class="section-title">What's inside</h2>
+    <div class="grid">
+      <div class="card">
+        <span class="marks">Section 1&ndash;4</span>
+        <h3>Syllabus, blueprint &amp; marking principles</h3>
+        <p>Full course structure, the official Section A&ndash;E question-paper design (38 questions, MCQ to case-study), and how CBSE examiners award step-marks &mdash; illustrated with real solutions from the official Marking Scheme.</p>
+      </div>
+      <div class="card">
+        <span class="marks">Unit I &middot; 8 marks</span>
+        <h3>Relations &amp; Functions</h3>
+        <p>Equivalence relations, one-one/onto functions, inverse trigonometric identities &mdash; with worked proofs.</p>
+      </div>
+      <div class="card">
+        <span class="marks">Unit II &middot; 10 marks</span>
+        <h3>Algebra</h3>
+        <p>Matrices and determinants, including the official CBSE matrix-method example reproduced step-by-step.</p>
+      </div>
+      <div class="card">
+        <span class="marks">Unit III &middot; 35 marks</span>
+        <h3>Calculus</h3>
+        <p>Continuity &amp; differentiability, applications of derivatives, integrals, applications of integrals, and differential equations &mdash; the highest-weightage unit, with five full worked examples.</p>
+      </div>
+      <div class="card">
+        <span class="marks">Unit IV &middot; 14 marks</span>
+        <h3>Vectors &amp; 3D Geometry</h3>
+        <p>Vector algebra and line geometry in 3D, including shortest distance between skew lines.</p>
+      </div>
+      <div class="card">
+        <span class="marks">Unit V &amp; VI &middot; 13 marks</span>
+        <h3>Linear Programming &amp; Probability</h3>
+        <p>Corner-point method for LPP, and conditional probability through Bayes&rsquo; theorem &mdash; with the official Bayes&rsquo; theorem solution from the CBSE Marking Scheme.</p>
+      </div>
+    </div>
+
+    <div class="note">
+      <strong>Note:</strong> the syllabus content and unit weightage are confirmed from the official
+      CBSE Curriculum for 2026&ndash;27. The exact 2026&ndash;27 Sample Question Paper had not been released
+      as of this writing (CBSE typically issues it around September&ndash;October), so the question-paper
+      blueprint and marking-style examples use the most recently released official pattern (2025&ndash;26) &mdash;
+      worth a quick cross-check once the new SQP is out.
+    </div>
+
+    <h2 class="section-title" id="preview">Read it online</h2>
+    <div class="viewer-block">
+      <div class="viewer-frame">
+        <iframe src="./syllabus.pdf" title="CBSE Class 12 Maths syllabus PDF" style="width:100%;height:100%;border:0;"></iframe>
+      </div>
+      <p class="viewer-fallback">If the preview above doesn't load on your device, <a href="./syllabus.pdf" target="_blank" rel="noopener">open the PDF directly</a>.</p>
+    </div>
+
+    <h2 class="section-title">Sources</h2>
+    <ul class="sources">
+      <li>CBSE Curriculum, Mathematics (Code 041), Class XII, 2026&ndash;27 &mdash; <a href="https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Maths_SecP2_2026-27.pdf" target="_blank" rel="noopener">cbseacademic.nic.in</a></li>
+      <li>CBSE Sample Question Paper, Mathematics (Code 041), Class XII, 2025&ndash;26 &mdash; <a href="https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Maths-SQP.pdf" target="_blank" rel="noopener">cbseacademic.nic.in</a></li>
+      <li>CBSE Marking Scheme, Mathematics (Code 041), Class XII, 2025&ndash;26 &mdash; <a href="https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Maths-MS.pdf" target="_blank" rel="noopener">cbseacademic.nic.in</a></li>
+      <li>NCERT Textbooks &amp; Exemplar, Mathematics, Class XII, Parts I &amp; II</li>
+    </ul>
+
+  </div>
+</main>
+
+<footer>
+  Compiled for personal study use from official CBSE sources and standard NCERT content &middot; last updated 30 August 2026
+</footer>
+
+</body>
+</html>
